@@ -1,0 +1,59 @@
+:root{
+    --card-background: #1B2226;
+    --dark-text: rgba(0, 0, 0, 0.75);
+    --primary-color: #70B5F9;
+    --primary-text: rgba(255, 255, 255, 0.9);
+    --secondary-text: rgba(255, 255, 255, 0.6);
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.secondary-text{
+    color: var(--secondary-text);
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+.link{
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: .875rem;
+    font-weight: 700;   
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.primary-button{
+    color: var(--dark-text);
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+}
+
+.primary-button:hover{
+    background-color: var(--primary-color);
+    opacity: 0.8;
+}
+
+.secondary-button{
+    color: var(--primary-color);
+    cursor: pointer;
+    border: .0625rem solid var(--primary-color);
+    border-radius: 1rem;
+    background-color: var(--card-background);
+}
+
+.secondary-button:hover{
+    background-color: var(--card-background);
+    opacity: 0.8;
+}

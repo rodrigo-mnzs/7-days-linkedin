@@ -1,0 +1,7 @@
+.profile__banner{
+    display: flex;
+    background-image: url("../../img/capa.png");
+    background-size: cover;
+    height: 14.375rem;
+    width: 48.75rem;
+}

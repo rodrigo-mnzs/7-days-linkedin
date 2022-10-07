@@ -1,0 +1,9 @@
+.profile__picture{
+    align-self: flex-end;
+    border: 4px solid var(--card-background);
+    border-radius: 100%;
+    height: auto;
+    margin-left: 1.5rem;
+    margin-bottom: -40px;
+    width: 10rem;
+}
