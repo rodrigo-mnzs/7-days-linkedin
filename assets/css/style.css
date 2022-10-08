@@ -1,6 +1,8 @@
 :root{
     --card-background: #1B2226;
+    --background-color: #000000;
     --dark-text: rgba(0, 0, 0, 0.75);
+    --input: #38434F;
     --primary-color: #70B5F9;
     --primary-text: rgba(255, 255, 255, 0.9);
     --secondary-text: rgba(255, 255, 255, 0.6);
@@ -8,6 +10,11 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+}
+
+.container{
+    padding: 0 9.625rem 0 9.625rem;
 }
 
 .flex-container{
@@ -56,4 +63,10 @@ body{
 .secondary-button:hover{
     background-color: var(--card-background);
     opacity: 0.8;
+}
+
+.h-line{
+    border-right: .0625rem solid var(--primary-text);
+    height: 100%;
+    width: 0;
 }

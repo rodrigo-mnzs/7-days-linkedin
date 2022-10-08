@@ -23,12 +23,59 @@
     <link rel="stylesheet" href="assets/css/profile/profile-message.css">
     <link rel="stylesheet" href="assets/css/profile/profile-more.css">
     <link rel="stylesheet" href="assets/css/profile/profile-side.css">
+    <link rel="stylesheet" href="assets/css/header/header.css">
+    <link rel="stylesheet" href="assets/css/header/header-logo.css">
+    <link rel="stylesheet" href="assets/css/header/header-search.css">
+    <link rel="stylesheet" href="assets/css/header/header-nav.css">
     <title>Linkedin</title>
 </head>
 
 <body>
+    <header class="header container">
+        <a class="header__logo" href="#"><img src="assets/img/logo.svg" alt="Logo Linkedin"></a>
+        <input class="header__search" type="text" placeholder="Pesquisar">
+        <ul class="header__nav">
+            <li>
+                <button class="header__nav--button">
+                    <img src="assets/img/home.png" alt=""></img>
+                    <span>Início</span>
+                </button>
+            </li>
+            <li>
+                <button class="header__nav--button">
+                    <img src="assets/img/group.png" alt=""></img>
+                    <span>Minha rede</span>
+                </button>
+            </li>
+            <li>
+                <button class="header__nav--button">
+                    <img src="assets/img/business.png" alt=""></img>
+                    <span>Vagas</span>
+                </button>
+            </li>
+            <li>
+                <button class="header__nav--button">
+                    <img src="assets/img/sms.png" alt=""></img>
+                    <span>Mensagens</span>
+                </button>
+            </li>
+            <li>
+                <button class="header__nav--button">
+                    <img src="assets/img/notifications.png" alt=""></img>
+                    <span>Notificações</span>
+                </button>
+            </li>
+            <div class="h-line"></div>
+            <li>
+                <button class="header__nav--button">
+                    <img src="assets/img/apps.png" alt="">
+                    <span>Soluções</span>
+                </button>
+            </li>
+        </ul>
+    </header>
     <main>
-        <section class="profile">
+        <section class="profile container">
             <div class="profile__banner">
                 <img class="profile__picture" src="https://github.com/rodrigo-mnzs.png" alt="Foto de perfil">
             </div>
@@ -51,11 +98,13 @@
                     <button class="profile__more secondary-button">Mais</button>
                 </div>
                 <button class="profile__side">
-                    <img src="https://media-exp1.licdn.com/dms/image/C510BAQE4RgMuteIA1g/company-logo_100_100/0/1519865018920?e=1673481600&v=beta&t=poS3mlOAn7ZkGPO-ZC1gzQntJwF7vWftjniVMJIxKg8" alt="Tribunal de Contas do Estado do Amazonas">
+                    <img src="https://media-exp1.licdn.com/dms/image/C510BAQE4RgMuteIA1g/company-logo_100_100/0/1519865018920?e=1673481600&v=beta&t=poS3mlOAn7ZkGPO-ZC1gzQntJwF7vWftjniVMJIxKg8"
+                        alt="Tribunal de Contas do Estado do Amazonas">
                     <span>Tribunal de Contas do Estado do Amazonas</span>
                 </button>
                 <button class="profile__side">
-                    <img src="https://media-exp1.licdn.com/dms/image/D4D0BAQGqEj1zLsTI3Q/company-logo_100_100/0/1664983507555?e=1673481600&v=beta&t=NpWlq6B8cPaGQuAx5431pitl5a-1nVmB_4NNLdDttD0" alt="UniNorte">
+                    <img src="https://media-exp1.licdn.com/dms/image/D4D0BAQGqEj1zLsTI3Q/company-logo_100_100/0/1664983507555?e=1673481600&v=beta&t=NpWlq6B8cPaGQuAx5431pitl5a-1nVmB_4NNLdDttD0"
+                        alt="UniNorte">
                     <span>UniNorte (Centro Universiário do Norte)</span>
                 </button>
             </div>

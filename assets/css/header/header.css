@@ -1,0 +1,7 @@
+.header{
+    align-items: center;
+    display: flex;
+    background-color: var(--card-background);
+    height: 3.25rem;
+    margin-bottom: 1.5rem;
+}

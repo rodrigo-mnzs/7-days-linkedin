@@ -1,0 +1,21 @@
+.header__search {
+    background-color: var(--input);
+    background-image: url("../../img/search.png");
+    background-repeat: no-repeat;
+    background-position: 13px 10px;
+    border: none;
+    border-radius: .25rem;
+    margin-right: 5.75rem;
+    padding-left: 2.5rem;
+    height: 2.125rem;
+    width: 17.5rem;
+}
+
+.header__search:focus {
+    color: var(--primary-text);
+    outline: none;
+}
+
+.header__search::placeholder {
+    color: var(--primary-text);
+}
