@@ -8,7 +8,7 @@ Daily                                     |Situação
 ------------------------------------------|---------
 Sessão de informações principais do perfil|✔
 Navbar                                    |✔
-Pendente                                  |❌
+Sessão destaques                          |✔
 Pendente                                  |❌
 Pendente                                  |❌
 Pendente                                  |❌
