@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-    padding: 0 9.625rem 0 9.625rem;
+    margin: 0 9.625rem 0 9.625rem;
 }
 
 .flex-container{
@@ -69,4 +69,19 @@ body{
     border-right: .0625rem solid var(--primary-text);
     height: 100%;
     width: 0;
+}
+
+.card{
+    background-color: var(--card-background);
+    border-radius: 1rem;
+    margin: 0 9.625rem .5rem 9.625rem;
+    padding: 1rem 1.5rem;
+    width: calc(48.75rem - 3rem);
+}
+
+.title{
+    color: var(--primary-text);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: .5rem    ;
 }

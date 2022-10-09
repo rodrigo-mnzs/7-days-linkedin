@@ -1,0 +1,9 @@
+.highlight__title{
+    color: var(--primary-text);
+    font-size: .875rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/profile/profile-banner.css">
@@ -27,6 +27,11 @@
     <link rel="stylesheet" href="assets/css/header/header-logo.css">
     <link rel="stylesheet" href="assets/css/header/header-search.css">
     <link rel="stylesheet" href="assets/css/header/header-nav.css">
+    <link rel="stylesheet" href="assets/css/highlight/highlight.css">
+    <link rel="stylesheet" href="assets/css/highlight/highlight-type.css">
+    <link rel="stylesheet" href="assets/css/highlight/highlight-title.css">
+    <link rel="stylesheet" href="assets/css/highlight/highlight-img.css">
+    <link rel="stylesheet" href="assets/css/highlight/highlight-reaction.css">
     <title>Linkedin</title>
 </head>
 
@@ -75,11 +80,11 @@
         </ul>
     </header>
     <main>
-        <section class="profile container">
-            <div class="profile__banner">
+        <section class="profile">
+            <div class="profile__banner container">
                 <img class="profile__picture" src="https://github.com/rodrigo-mnzs.png" alt="Foto de perfil">
             </div>
-            <div class="profile__info">
+            <div class="profile__info card">
                 <h1 class="profile__name">Rodrigo Menezes</h1>
                 <span class="profile__description">Desenvolvedor | Front-end | HTML | CSS</span>
                 <span class="profile__about secondary-text">Fala sobre #frontend, #html, #css, #javascript</span>
@@ -107,6 +112,47 @@
                         alt="UniNorte">
                     <span>UniNorte (Centro Universiário do Norte)</span>
                 </button>
+            </div>
+        </section>
+        <section class="card">
+            <h2 class="title">Destaques</h2>
+            <div class="flex-container">
+                <div class="highlight">
+                    <span class="highlight__type">Publicação</span>
+                    <h3 class="highlight__title">Legenda da primeira publicação</h3>
+                    <img class="highlight__img" src="assets/img/publicacao-1.jpg" alt="">
+                    <div class="highlight__reaction">
+                        <img src="assets/img/ellipse2.png" alt="">
+                        <img src="assets/img/ellipse3.png" alt="">
+                        <img src="assets/img/ellipse4.png" alt="">
+                        <span class="highlight__reaction--count">124</span>
+                        <span class="highlight__reaction--comments">5 comentários</span>
+                    </div>
+                </div>
+                <div class="highlight">
+                    <span class="highlight__type">Publicação</span>
+                    <h3 class="highlight__title">Legenda da segunda publicação</h3>
+                    <img class="highlight__img" src="assets/img/publicacao-2.jpg" alt="">
+                    <div class="highlight__reaction">
+                        <img src="assets/img/ellipse2.png" alt="">
+                        <img src="assets/img/ellipse3.png" alt="">
+                        <img src="assets/img/ellipse4.png" alt="">
+                        <span class="highlight__reaction--count">124</span>
+                        <span class="highlight__reaction--comments">5 comentários</span>
+                    </div>
+                </div>
+                <div class="highlight">
+                    <span class="highlight__type">Publicação</span>
+                    <h3 class="highlight__title">Legenda da terceira publicação</h3>
+                    <img class="highlight__img" src="assets/img/publicacao-3.jpg" alt="">
+                    <div class="highlight__reaction">
+                        <img src="assets/img/ellipse2.png" alt="">
+                        <img src="assets/img/ellipse3.png" alt="">
+                        <img src="assets/img/ellipse4.png" alt="">
+                        <span class="highlight__reaction--count">124</span>
+                        <span class="highlight__reaction--comments">5 comentários</span>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

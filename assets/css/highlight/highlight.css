@@ -1,0 +1,13 @@
+.highlight{
+    border: 1px solid var(--secondary-text);
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.0625rem;
+    padding: .75rem .875rem .25rem .875rem;
+    width: calc(14.75rem - 1.75rem);
+}
+
+.highlight:last-child{
+    margin-right: 0;
+}
