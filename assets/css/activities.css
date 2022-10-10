@@ -1,0 +1,21 @@
+.activities{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.activities .link{
+    margin-bottom: 1rem;
+}
+
+.activities .reaction :first-child{
+    margin-left: 0;
+}
+
+.activities .reaction :last-child{
+    margin-right: 0;
+}
+
+.activities__show{
+    align-self: center;
+}
