@@ -1,0 +1,6 @@
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    padding-left: .5rem;
+}

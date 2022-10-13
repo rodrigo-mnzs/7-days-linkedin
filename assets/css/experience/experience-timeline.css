@@ -1,0 +1,9 @@
+.experience__timeline{
+    align-items: center;
+    display: flex;
+    margin-top: .5rem;
+}
+
+.experience__timeline p {
+    color: var(--primary-text);
+}

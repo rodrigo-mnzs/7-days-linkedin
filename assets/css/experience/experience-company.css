@@ -1,0 +1,10 @@
+.experience__company {
+    align-items: center;
+    display: flex;
+}
+
+.experience__company img {
+    height: auto;
+    margin-right: .5rem;
+    width: 3rem;
+}

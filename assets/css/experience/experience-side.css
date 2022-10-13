@@ -1,0 +1,12 @@
+.experience__side {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    height: auto;
+    width: 3rem;
+}
+
+.experience__side .h--line {
+    height: 3.375rem;
+}

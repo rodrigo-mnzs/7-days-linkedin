@@ -4,6 +4,10 @@
     gap: 0.5rem;
 }
 
+.activities .secondary-text{
+    margin-top: .5rem;
+}
+
 .activities .link{
     margin-bottom: 1rem;
 }

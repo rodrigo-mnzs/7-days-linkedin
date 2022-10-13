@@ -3,3 +3,7 @@
     display: flex;
     margin-bottom: .625rem;
 }
+
+.activity .secondary-text{
+    margin-top: 1rem;
+}
