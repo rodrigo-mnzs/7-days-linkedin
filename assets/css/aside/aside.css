@@ -1,0 +1,15 @@
+.aside {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.aside:last-child{
+    margin-bottom: 0;
+}
+
+.aside--card h3 {
+    color: var(--primary-text);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}

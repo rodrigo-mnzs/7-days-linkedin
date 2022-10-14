@@ -1,6 +1,7 @@
 .experience__company {
     align-items: center;
     display: flex;
+    margin-top: .5rem;
 }
 
 .experience__company img {

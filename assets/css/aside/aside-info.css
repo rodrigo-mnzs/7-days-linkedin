@@ -1,0 +1,24 @@
+.aside__info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.aside__info h4 {
+    color: var(--primary-text);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.aside__info .secondary-text{
+    font-size: .75rem;
+    font-weight: 400;
+}
+
+.aside__info button{
+    color: var(--primary-text);
+    border-color: var(--primary-text);
+    height: 1.75rem;
+    width: 9.625rem;
+    margin-top: .25rem;
+}

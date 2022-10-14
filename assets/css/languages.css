@@ -1,0 +1,27 @@
+.languages {
+    display: flex;
+    flex-direction: column;
+}
+
+.languages .title{
+    margin-bottom: .5rem;
+}
+
+.languages p {
+    color: var(--primary-text);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: .25rem;
+}
+
+.languages .secondary-text{
+    margin-bottom: 1rem;
+}
+
+.languages .secondary-text:last-child{
+    margin-bottom: 0;
+}
+
+.languages .w--line{
+    margin-bottom: 1rem;
+}

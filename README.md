@@ -8,11 +8,11 @@ Daily                                     |Situação
 ------------------------------------------|---------
 Sessão de informações principais do perfil|✔
 Navbar                                    |✔
-Sessão destaques                          |✔
-Sessões Atividades e sobre                |✔
-Sessão experiências                       |✔
-Sessão formação acadêmica e idiomas       |❌
-Seções de sugestões de perfis             |❌
+Seção destaques                           |✔
+Seções atividades e sobre                 |✔
+Seção experiências                        |✔
+Seções formação acadêmica e idiomas       |✔
+Seções de sugestões de perfis             |✔
 
 **Tecnologias utilizadas:**
 
