@@ -14,12 +14,6 @@
     <link rel="stylesheet" href="assets/css/profile/profile-picture.css">
     <link rel="stylesheet" href="assets/css/profile/profile-info.css">
     <link rel="stylesheet" href="assets/css/profile/profile-name.css">
-    <link rel="stylesheet" href="assets/css/profile/profile-about.css">
-    <link rel="stylesheet" href="assets/css/profile/profile-description.css">
-    <link rel="stylesheet" href="assets/css/profile/profile-location.css">
-    <link rel="stylesheet" href="assets/css/profile/profile-contact.css">
-    <link rel="stylesheet" href="assets/css/profile/profile-followers.css">
-    <link rel="stylesheet" href="assets/css/profile/profile-conections.css">
     <link rel="stylesheet" href="assets/css/profile/profile-message.css">
     <link rel="stylesheet" href="assets/css/profile/profile-more.css">
     <link rel="stylesheet" href="assets/css/profile/profile-side.css">
@@ -27,6 +21,7 @@
     <link rel="stylesheet" href="assets/css/header/header-logo.css">
     <link rel="stylesheet" href="assets/css/header/header-search.css">
     <link rel="stylesheet" href="assets/css/header/header-nav.css">
+    <link rel="stylesheet" href="assets/css/highlights.css">
     <link rel="stylesheet" href="assets/css/highlight/highlight.css">
     <link rel="stylesheet" href="assets/css/highlight/highlight-type.css">
     <link rel="stylesheet" href="assets/css/highlight/highlight-title.css">
@@ -58,83 +53,81 @@
         <input class="header__search" type="text" placeholder="Pesquisar">
         <ul class="header__nav">
             <li>
-                <button class="header__nav--button">
+                <button class="header__nav___button">
                     <img src="assets/img/home.png" alt=""></img>
                     <span>Início</span>
                 </button>
             </li>
             <li>
-                <button class="header__nav--button">
+                <button class="header__nav___button">
                     <img src="assets/img/group.png" alt=""></img>
                     <span>Minha rede</span>
                 </button>
             </li>
             <li>
-                <button class="header__nav--button">
+                <button class="header__nav___button">
                     <img src="assets/img/business.png" alt=""></img>
                     <span>Vagas</span>
                 </button>
             </li>
             <li>
-                <button class="header__nav--button">
+                <button class="header__nav___button">
                     <img src="assets/img/sms.png" alt=""></img>
                     <span>Mensagens</span>
                 </button>
             </li>
             <li>
-                <button class="header__nav--button">
+                <button class="header__nav___button">
                     <img src="assets/img/notifications.png" alt=""></img>
                     <span>Notificações</span>
                 </button>
             </li>
-            <div class="h--line"></div>
+            <div class="h-line"></div>
             <li>
-                <button class="header__nav--button">
+                <button class="header__nav___button">
                     <img src="assets/img/apps.png" alt="">
                     <span>Soluções</span>
                 </button>
             </li>
         </ul>
     </header>
-    <main class="flex-container">
+    <main class="container">
         <div>
-            <section class="profile container">
+            <section>
                 <div class="profile__banner">
                     <img class="profile__picture" src="https://github.com/rodrigo-mnzs.png" alt="Foto de perfil">
                 </div>
                 <div class="profile__info card">
                     <h1 class="profile__name">Rodrigo Menezes</h1>
-                    <span class="profile__description">Desenvolvedor | Front-end | HTML | CSS</span>
-                    <span class="profile__about secondary-text">Fala sobre #frontend, #html, #css, #javascript</span>
-                    <div class="flex-container">
-                        <span class="profile__location secondary-text">Manaus, Amazonas, Brasil</span>
+                    <span class="primary-text">Desenvolvedor | Front-end | HTML | CSS</span>
+                    <span class="secondary-text">Fala sobre #frontend, #html, #css, #javascript</span>
+                    <div>
+                        <span class="secondary-text">Manaus, Amazonas, Brasil</span>
                         <span class="secondary-text">•</span>
-                        <a class="profile__contact link" href="#">informações de contato</a>
+                        <a class="link" href="#">informações de contato</a>
                     </div>
-                    <div class="flex-container">
-                        <a class="profile__followers link">35 seguidores</a>
+                    <div>
+                        <a class="link">35 seguidores</a>
                         <span class="secondary-text">•</span>
-                        <a class="profile__conections link">48 conexões</a>
+                        <a class="link">48 conexões</a>
                     </div>
-                    <div class="flex-container">
+                    <div>
                         <button class="profile__message primary-button">Mensagem</button>
                         <button class="profile__more secondary-button">Mais</button>
                     </div>
                     <button class="profile__side">
-                        <img src="https://media-exp1.licdn.com/dms/image/C510BAQE4RgMuteIA1g/company-logo_100_100/0/1519865018920?e=1673481600&v=beta&t=poS3mlOAn7ZkGPO-ZC1gzQntJwF7vWftjniVMJIxKg8"
-                            alt="Tribunal de Contas do Estado do Amazonas">
-                        <span>Tribunal de Contas do Estado do Amazonas</span>
+                        <img src="https://media-exp1.licdn.com/dms/image/C510BAQE4RgMuteIA1g/company-logo_100_100/0/1519865018920?e=1673481600&v=beta&t=poS3mlOAn7ZkGPO-ZC1gzQntJwF7vWftjniVMJIxKg8" alt="Tribunal de Contas do Estado do Amazonas">
+                        <span class="primary-text">Tribunal de Contas do Estado do Amazonas</span>
                     </button>
                     <button class="profile__side">
-                        <img src="https://media-exp1.licdn.com/dms/image/D4D0BAQGqEj1zLsTI3Q/company-logo_100_100/0/1664983507555?e=1673481600&v=beta&t=NpWlq6B8cPaGQuAx5431pitl5a-1nVmB_4NNLdDttD0"
-                            alt="UniNorte">
-                        <span>UniNorte (Centro Universiário do Norte)</span>
+                        <img src="https://media-exp1.licdn.com/dms/image/D4D0BAQGqEj1zLsTI3Q/company-logo_100_100/0/1664983507555?e=1673481600&v=beta&t=NpWlq6B8cPaGQuAx5431pitl5a-1nVmB_4NNLdDttD0" alt="UniNorte">
+                        <span class="primary-text">UniNorte (Centro Universiário do Norte)</span>
                     </button>
                 </div>
             </section>
-            <section class="card container">
+            <section class="card">
                 <h2 class="title">Destaques</h2>
-                <div class="flex-container">
+                <div class="highlights">
                     <div class="highlight">
                         <span class="highlight__type">Publicação</span>
                         <h3 class="highlight__title">Legenda da primeira publicação</h3>
@@ -143,8 +136,8 @@
                             <img src="assets/img/ellipse2.png" alt="">
                             <img src="assets/img/ellipse3.png" alt="">
                             <img src="assets/img/ellipse4.png" alt="">
-                            <span class="highlight__reaction--count">124</span>
-                            <span class="highlight__reaction--comments">5 comentários</span>
+                            <span class="highlight__reaction-count">124</span>
+                            <span class="highlight__reaction-comments">5 comentários</span>
                         </div>
                     </div>
                     <div class="highlight">
@@ -155,8 +148,8 @@
                             <img src="assets/img/ellipse2.png" alt="">
                             <img src="assets/img/ellipse3.png" alt="">
                             <img src="assets/img/ellipse4.png" alt="">
-                            <span class="highlight__reaction--count">124</span>
-                            <span class="highlight__reaction--comments">5 comentários</span>
+                            <span class="highlight__reaction-count">124</span>
+                            <span class="highlight__reaction-comments">5 comentários</span>
                         </div>
                     </div>
                     <div class="highlight">
@@ -167,13 +160,13 @@
                             <img src="assets/img/ellipse2.png" alt="">
                             <img src="assets/img/ellipse3.png" alt="">
                             <img src="assets/img/ellipse4.png" alt="">
-                            <span class="highlight__reaction--count">124</span>
-                            <span class="highlight__reaction--comments">5 comentários</span>
+                            <span class="highlight__reaction-count">124</span>
+                            <span class="highlight__reaction-comments">5 comentários</span>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="activities card container">
+            <section class="activities card">
                 <div>
                     <h2 class="title">Atividades</h2>
                     <a class="link" href="#">400 seguidores</a>
@@ -183,95 +176,94 @@
                     <img class="activity__img" src="assets/img/publicacao-1.jpg" alt="">
                     <p class="activity__txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam eaque
                         temporibus repudiandae magni, eos nemo rem deleniti delectus modi reprehenderit fugiat
-                        architecto ea
-                        nisi, aspernatur et? Harum ad maiores culpa.</p>
+                        architecto ea nisi, aspernatur et? Harum ad maiores culpa.
+                    </p>
                 </div>
                 <div class="reaction">
                     <img src="assets/img/ellipse2.png" alt="">
                     <img src="assets/img/ellipse3.png" alt="">
                     <img src="assets/img/ellipse4.png" alt="">
-                    <span class="reaction--count">124</span>
-                    <span class="reaction--comments">5 comentários</span>
+                    <span class="reaction-count">124</span>
+                    <span class="reaction-comments">5 comentários</span>
                 </div>
-                <div class="w--line"></div>
+                <div class="w-line"></div>
                 <span class="secondary-text">Rodrigo Menezes publicou isso • 1 sem</span>
                 <div class="activity">
                     <img class="activity__img" src="assets/img/publicacao-2.jpg" alt="">
                     <p class="activity__txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam eaque
                         temporibus repudiandae magni, eos nemo rem deleniti delectus modi reprehenderit fugiat
-                        architecto ea
-                        nisi, aspernatur et? Harum ad maiores culpa.</p>
+                        architecto ea nisi, aspernatur et? Harum ad maiores culpa.
+                    </p>
                 </div>
                 <div class="reaction">
                     <img src="assets/img/ellipse2.png" alt="">
                     <img src="assets/img/ellipse3.png" alt="">
                     <img src="assets/img/ellipse4.png" alt="">
-                    <span class="reaction--count">124</span>
-                    <span class="reaction--comments">5 comentários</span>
+                    <span class="reaction-count">124</span>
+                    <span class="reaction-comments">5 comentários</span>
                 </div>
-                <div class="w--line"></div>
-                <span class="activities__show secondary-text">Exibir todas as atividades</span>
+                <div class="w-line"></div>
+                <a class="activities__show secondary-text" href="#">Exibir todas as atividades</a>
             </section>
-            <section class="about card container">
+            <section class="about card">
                 <h2 class="title">Sobre</h2>
                 <p class="about__text">Sit dolore excepteur laborum id exercitation tempor aute dolore anim adipisicing
-                    esse
-                    Lorem. Quis cupidatat cillum nulla duis laborum irure ad sint proident deserunt anim. Officia
-                    cupidatat
-                    sint est enim. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro dignissimos sint
+                    esse Lorem. Quis cupidatat cillum nulla duis laborum irure ad sint proident deserunt anim. Officia
+                    cupidatat sint est enim. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro dignissimos sint
                     exercitationem hic sed animi illo commodi ipsa quidem harum? Labore velit quisquam sapiente illum
-                    recusandae dolores, fuga modi officiis.</p>
+                    recusandae dolores, fuga modi officiis.
+                </p>
             </section>
-            <section class="experiences card container">
+            <section class="experiences card">
                 <div class="experience">
                     <h2 class="title">Experiências</h2>
                     <div class="experience__company">
                         <img
                             src="https://media-exp1.licdn.com/dms/image/C510BAQE4RgMuteIA1g/company-logo_100_100/0/1519865018920?e=1673481600&v=beta&t=poS3mlOAn7ZkGPO-ZC1gzQntJwF7vWftjniVMJIxKg8">
                         <div>
-                            <h3 class="exp--title">Tribunal de Contas do Estado do Amazonas</h3>
-                            <span class="exp--text">1 a 12 m</span>
+                            <h3 class="primary-text">Tribunal de Contas do Estado do Amazonas</h3>
+                            <span class="secondary-text">1 a 12 m</span>
                         </div>
                     </div>
                     <div class="experience__timeline">
                         <div class="experience__side">
                             <img src="assets/img/Ellipse 7.png" alt="">
-                            <div class="h--line"></div>
+                            <div class="h-line"></div>
                         </div>
                         <div class="experience__info">
-                            <h4 class="exp--title">Fullstack Developer</h4>
-                            <p class="exp--text">Tempo integral</p>
-                            <span class="exp--text">jan de 2022 - o momento • 5 meses</span>
-                            <span class="exp--text">Manaus, Amazonas</span>
+                            <h4 class="primary-text">Fullstack Developer</h4>
+                            <p class="secondary-text">Tempo integral</p>
+                            <span class="secondary-text">jan de 2022 - o momento • 5 meses</span>
+                            <span class="secondary-text">Manaus, Amazonas</span>
                         </div>
                     </div>
                     <div class="experience__timeline">
                         <div class="experience__side">
                             <img src="assets/img/Ellipse 7.png" alt="">
-                            <div class="h--line"></div>
+                            <div class="h-line"></div>
                         </div>
                         <div class="experience__info">
-                            <h4 class="exp--title">Fullstack Developer (JR)</h4>
-                            <p class="exp--text">Tempo integral</p>
-                            <span class="exp--text">jun de 2021 - jan de 2022 • 8 meses</span>
-                            <span class="exp--text">Manaus, Amazonas</span>
+                            <h4 class="primary-text">Fullstack Developer (JR)</h4>
+                            <p class="secondary-text">Tempo integral</p>
+                            <span class="secondary-text">jun de 2021 - jan de 2022 • 8 meses</span>
+                            <span class="secondary-text">Manaus, Amazonas</span>
                         </div>
                     </div>
                     <div class="experience__timeline">
                         <div class="experience__side">
                             <img src="assets/img/Ellipse 7.png" alt="">
-                            <div class="h--line"></div>
+                            <div class="h-line"></div>
                         </div>
                         <div class="experience__info">
-                            <h4 class="exp--title">Front-end Developer</h4>
-                            <p class="exp--text">Tempo integral</p>
-                            <span class="exp--text">jan de 2021 - jun de 2021 • 6 meses</span>
-                            <span class="exp--text">Manaus, Amazonas</span>
+                            <h4 class="primary-text">Front-end Developer</h4>
+                            <p class="secondary-text">Tempo integral</p>
+                            <span class="secondary-text">jan de 2021 - jun de 2021 • 6 meses</span>
+                            <span class="secondary-text">Manaus, Amazonas</span>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="card container">
+            <section class="card">
                 <h2 class="title">Formação acadêmica</h2>
                 <div class="institution">
                     <img class="institution__img"
@@ -284,17 +276,17 @@
                     </div>
                 </div>
             </section>
-            <section class="languages card container">
+            <section class="languages card">
                 <h2 class="title">Idiomas</h2>
                 <p>Português</p>
                 <span class="secondary-text">Fluente ou nativo</span>
-                <div class="w--line"></div>
+                <div class="w-line"></div>
                 <p>Inglês</p>
                 <span class="secondary-text">Intermediário</span>
             </section>
         </div>
         <aside>
-            <section class="aside--card">
+            <section class="aside-card">
                 <h3>As pessoas também viram</h3>
                 <div class="aside">
                     <img class="aside__img" src="assets/img/foto (1).png" alt="">
@@ -337,7 +329,7 @@
                     </div>
                 </div>
             </section>
-            <section class="aside--card">
+            <section class="aside-card">
                 <h3>Pessoas que talvez você conheça</h3>
                 <div class="aside">
                     <img class="aside__img" src="assets/img/foto (6).png" alt="">

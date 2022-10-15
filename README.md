@@ -21,3 +21,5 @@ Seções de sugestões de perfis             |✔
 ##
  
 * Link do protótipo no Figma: <https://www.figma.com/file/YNrQbgrdCBM7tDd6CfpBmm/7days---HTML-e-CSS-(Linkedin)?node-id=0%3A1>
+
+* Link do projeto em produção: <https://rodrigo-mnzs.github.io/7-days-linkedin/>

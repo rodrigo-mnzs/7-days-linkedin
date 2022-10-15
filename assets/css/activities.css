@@ -18,4 +18,9 @@
 
 .activities__show{
     align-self: center;
+    text-decoration: none;
+}
+
+.activities__show:hover{
+    text-decoration: underline;
 }

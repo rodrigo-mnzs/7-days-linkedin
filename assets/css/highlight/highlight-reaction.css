@@ -10,11 +10,11 @@
     margin-left: -0.5rem;
 }
 
-.highlight__reaction--count{
+.highlight__reaction-count{
     flex-grow: 1;
     margin-left: .25rem;
 }
 
-.highlight__reaction--comments{
+.highlight__reaction-comments{
     margin-right: -.5rem;
 }
