@@ -1,4 +1,4 @@
-:root{
+:root {
     --card-background: #1B2226;
     --background-color: #000000;
     --dark-text: rgba(0, 0, 0, 0.75);
@@ -8,49 +8,49 @@
     --secondary-text: rgba(255, 255, 255, 0.6);
 }
 
-body{
+body {
     background-color: var(--background-color);
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
 }
 
-.container{
+.container {
     display: flex;
     gap: 2rem;
     justify-content: center;
 }
 
-.title{
+.title {
     color: var(--primary-text);
     font-size: 1.25rem;
     font-weight: 600;
 }
 
-.primary-text{
+.primary-text {
     color: var(--primary-text);
     font-size: 1rem;
     font-weight: 600;
 }
 
-.secondary-text{
+.secondary-text {
     color: var(--secondary-text);
     font-size: .875rem;
     font-weight: 400;
 }
 
-.link{
+.link {
     color: var(--primary-color);
     cursor: pointer;
     font-size: .875rem;
-    font-weight: 700;   
+    font-weight: 700;
     text-decoration: none;
 }
 
-.link:hover{
+.link:hover {
     text-decoration: underline;
 }
 
-.primary-button{
+.primary-button {
     color: var(--dark-text);
     cursor: pointer;
     border: none;
@@ -58,12 +58,12 @@ body{
     background-color: var(--primary-color);
 }
 
-.primary-button:hover{
+.primary-button:hover {
     background-color: var(--primary-color);
     opacity: 0.8;
 }
 
-.secondary-button{
+.secondary-button {
     color: var(--primary-color);
     cursor: pointer;
     border: .0625rem solid var(--primary-color);
@@ -71,22 +71,22 @@ body{
     background-color: var(--card-background);
 }
 
-.secondary-button:hover{
+.secondary-button:hover {
     background-color: var(--card-background);
     opacity: 0.8;
 }
 
-.h-line{
+.h-line {
     border-right: .0625rem solid var(--primary-text);
     height: 100%;
     width: 0;
 }
 
-.w-line{
+.w-line {
     border-bottom: .0625rem solid var(--primary-text);
 }
 
-.card{
+.card {
     background-color: var(--card-background);
     border-radius: 1rem;
     margin-bottom: .5rem;
@@ -94,7 +94,7 @@ body{
     width: calc(48.75rem - 3rem);
 }
 
-.aside-card{
+.aside-card {
     background-color: var(--card-background);
     border-radius: 1rem;
     margin-bottom: .5rem;
@@ -102,7 +102,7 @@ body{
     width: calc(20rem - 3rem);
 }
 
-.reaction{
+.reaction {
     align-items: center;
     color: var(--secondary-text);
     display: flex;
@@ -110,15 +110,15 @@ body{
     font-weight: 400;
 }
 
-.reaction img{
+.reaction img {
     margin-left: -0.5rem;
 }
 
-.reaction-count{
+.reaction-count {
     flex-grow: 1;
     margin-left: .25rem;
 }
 
-.reaction-comments{
+.reaction-comments {
     margin-right: -0.5rem;
 }

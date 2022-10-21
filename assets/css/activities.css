@@ -1,26 +1,26 @@
-.activities{
+.activities {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-.activities .title{
+.activities .title {
     margin-bottom: .5rem;
 }
 
-.activities .reaction :first-child{
+.activities .reaction :first-child {
     margin-left: 0;
 }
 
-.activities .reaction :last-child{
+.activities .reaction :last-child {
     margin-right: 0;
 }
 
-.activities__show{
+.activities__show {
     align-self: center;
     text-decoration: none;
 }
 
-.activities__show:hover{
+.activities__show:hover {
     text-decoration: underline;
 }

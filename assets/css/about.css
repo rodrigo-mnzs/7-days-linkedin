@@ -1,8 +1,8 @@
-.about .title{
+.about .title {
     margin-bottom: .5rem;
 }
 
-.about__text{
+.about__text {
     color: var(--primary-text);
     font-size: .875rem;
     font-weight: 400;

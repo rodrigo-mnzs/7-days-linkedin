@@ -1,4 +1,4 @@
-.highlight__reaction{
+.highlight__reaction {
     align-items: center;
     color: var(--secondary-text);
     display: flex;
@@ -6,15 +6,15 @@
     font-weight: 400;
 }
 
-.highlight__reaction img{
+.highlight__reaction img {
     margin-left: -0.5rem;
 }
 
-.highlight__reaction-count{
+.highlight__reaction-count {
     flex-grow: 1;
     margin-left: .25rem;
 }
 
-.highlight__reaction-comments{
+.highlight__reaction-comments {
     margin-right: -.5rem;
 }

@@ -1,4 +1,4 @@
-.header{
+.header {
     align-items: center;
     display: flex;
     background-color: var(--card-background);
@@ -6,5 +6,5 @@
     gap: .5rem;
     justify-content: center;
     margin-bottom: 1.5rem;
-    margin-left: calc(-9.625rem - 1rem) ;
+    margin-left: calc(-9.625rem - 1rem);
 }
