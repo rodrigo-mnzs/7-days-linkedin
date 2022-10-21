@@ -3,6 +3,8 @@
     display: flex;
     background-color: var(--card-background);
     height: 3.25rem;
+    gap: .5rem;
+    justify-content: center;
     margin-bottom: 1.5rem;
-    padding: 0 8rem;
+    margin-left: calc(-9.625rem - 1rem) ;
 }
